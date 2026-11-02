@@ -71,7 +71,7 @@ response = requests.get(
     params={
         "query": "100397447",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -209,7 +209,7 @@ response = requests.get(
     params={
         "query": "perceuse",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
